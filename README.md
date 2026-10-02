@@ -6,7 +6,7 @@
 
 **Notas rápidas y bonitas para Windows. Todo se guarda en tu equipo.**
 
-[**⬇ Descargar la última versión**](https://github.com/jpinchi/noty-releases/releases/latest) · [Todas las versiones](https://github.com/jpinchi/noty-releases/releases)
+[**⬇ Descargar Noty para Windows**](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe) · [Todas las versiones](https://github.com/jpinchi/noty-releases/releases)
 
 </div>
 
@@ -56,11 +56,11 @@ En una tableta, un portátil 2 en 1 o cualquier equipo con pantalla táctil, Not
 
 ## Instalar
 
-1. Entra en [**Releases**](https://github.com/jpinchi/noty-releases/releases/latest).
-2. Descarga **`Noty-Setup-x.y.z.exe`** (instalador) y ejecútalo. No hace falta ser administrador.
+1. Pulsa [**⬇ Descargar Noty para Windows**](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe): se baja el instalador de la última versión.
+2. Ejecútalo. No hace falta ser administrador.
 3. Abre Noty desde el menú Inicio.
 
-También hay una versión **portable** (`Noty-x.y.z-portable.exe`): se ejecuta sin instalar, pero no se actualiza sola.
+También hay una versión **portable** (`Noty-x.y.z-portable.exe`, en [Releases](https://github.com/jpinchi/noty-releases/releases/latest)): se ejecuta sin instalar, pero no se actualiza sola.
 
 > **Si Windows muestra "Windows protegió su PC":** es el aviso normal de SmartScreen con programas poco comunes. Pulsa **Más información → Ejecutar de todas formas** para continuar.
 
@@ -88,6 +88,6 @@ Desinstalar el programa **no borra tus notas**: viven en `%APPDATA%\noty-desktop
 
 Quick capture from anywhere (**Ctrl + Shift + Space**), rich text with checklists, tables and images, folders and subfolders, smart folders, tags, reminders, in-note calculator, AES-256 note locking, version history, automatic backups, Markdown import/export, five glass styles in light and dark, and a touch mode for tablets (finger drag & drop, portrait layout, pen-friendly keyboard behaviour). The interface is available in Spanish and English.
 
-Download the installer from [Releases](https://github.com/jpinchi/noty-releases/releases/latest). Windows 10/11, 64-bit. If Windows SmartScreen shows a warning, choose *More info → Run anyway*. Updates install themselves.
+[Download the installer](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe) (or browse [Releases](https://github.com/jpinchi/noty-releases/releases/latest)). Windows 10/11, 64-bit. If Windows SmartScreen shows a warning, choose *More info → Run anyway*. Updates install themselves.
 
 </details>
