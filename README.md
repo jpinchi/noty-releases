@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="screenshots/logo.png" alt="Noty" width="96">
-
-# Noty
-
-**Notas rápidas y bonitas para Windows. Todo se guarda en tu equipo.**
+<img src="screenshots/banner.svg" alt="Noty — notas rápidas y bonitas para Windows; todo se guarda en tu equipo" width="100%">
 
 [![Versión](https://img.shields.io/github/v/release/jpinchi/noty-releases?style=flat-square&label=versi%C3%B3n&color=14B8A6)](https://github.com/jpinchi/noty-releases/releases/latest)
 [![Descargas](https://img.shields.io/github/downloads/jpinchi/noty-releases/total?style=flat-square&label=descargas&color=0EA5E9)](https://github.com/jpinchi/noty-releases/releases)
