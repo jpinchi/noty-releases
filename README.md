@@ -6,6 +6,11 @@
 
 **Notas rápidas y bonitas para Windows. Todo se guarda en tu equipo.**
 
+[![Versión](https://img.shields.io/github/v/release/jpinchi/noty-releases?style=flat-square&label=versi%C3%B3n&color=14B8A6)](https://github.com/jpinchi/noty-releases/releases/latest)
+[![Descargas](https://img.shields.io/github/downloads/jpinchi/noty-releases/total?style=flat-square&label=descargas&color=0EA5E9)](https://github.com/jpinchi/noty-releases/releases)
+![Windows 10/11](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Funciona sin conexión](https://img.shields.io/badge/funciona-sin_conexi%C3%B3n-8A909E?style=flat-square)
+
 [**⬇ Descargar Noty para Windows**](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe) · [Todas las versiones](https://github.com/jpinchi/noty-releases/releases)
 
 </div>
@@ -27,7 +32,7 @@ No necesita cuenta, no usa servidores y funciona sin conexión: tus notas viven 
 - **Calcular dentro de la nota:** escribe `450 + 120 * 3 =` y aparece `810`. Entiende monedas, porcentajes y variables de líneas anteriores.
 - **Proteger lo importante:** las notas bloqueadas se cifran con **AES-GCM de 256 bits** y contraseña propia, incluido su historial.
 - **No perder nada:** historial de versiones por nota, copias automáticas diarias, y exportación o importación de notas en Markdown, texto y HTML.
-- **Ortografía en español e inglés**, con la tilde puesta automáticamente al terminar una palabra.
+- **En español e inglés:** la interfaz y la ortografía, con la tilde puesta automáticamente al terminar una palabra.
 - **Actualizarse sola:** al salir una versión nueva, Noty la descarga y la instala en silencio.
 
 ## Cinco estilos de cristal, claro y oscuro
@@ -86,7 +91,7 @@ Desinstalar el programa **no borra tus notas**: viven en `%APPDATA%\noty-desktop
 
 **Noty** is a fast, good-looking notes app for Windows with a translucent glass design. Everything is stored locally on your PC — no account, no servers, works offline.
 
-Quick capture from anywhere (**Ctrl + Shift + Space**), rich text with checklists, tables and images, folders and subfolders, smart folders, tags, reminders, in-note calculator, AES-256 note locking, version history, automatic backups, Markdown import/export, five glass styles in light and dark, and a touch mode for tablets (finger drag & drop, portrait layout, pen-friendly keyboard behaviour). The interface is available in Spanish and English.
+Quick capture from anywhere (**Ctrl + Shift + Space**), rich text with checklists, tables and images, folders and subfolders, smart folders, tags, reminders, in-note calculator, AES-256 note locking, version history, automatic backups, import and export in Markdown, plain text and HTML, five glass styles in light and dark, and a touch mode for tablets (finger drag & drop, portrait layout, pen-friendly keyboard behaviour). The interface and spell checking are available in Spanish and English.
 
 [Download the installer](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe) (or browse [Releases](https://github.com/jpinchi/noty-releases/releases/latest)). Windows 10/11, 64-bit. If Windows SmartScreen shows a warning, choose *More info → Run anyway*. Updates install themselves.
 
