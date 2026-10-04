@@ -27,15 +27,21 @@ svg { --ax: 168px; }
 @keyframes kg { 0% { opacity: 0; } 2% { opacity: 1; } 9% { opacity: 0; } 100% { opacity: 0; } }
 .pop { transform-box: fill-box; transform-origin: center bottom; animation: pop 9s cubic-bezier(.34,1.4,.64,1) infinite both; }
 @keyframes pop { 0%, 10% { transform: translateY(16px) scale(.94); opacity: 0; } 16%, 88% { transform: none; opacity: 1; } 94%, 100% { transform: none; opacity: 0; } }
-.type { transform-box: fill-box; transform-origin: left center; animation: type 9s steps(28, end) infinite both; }
-@keyframes type { 0%, 18% { transform: scaleX(0); } 46%, 100% { transform: scaleX(1); } }
 .saved { opacity: 0; animation: saved 9s ease-out infinite both; }
 @keyframes saved { 0%, 52% { opacity: 0; transform: translateY(6px); } 56%, 88% { opacity: 1; transform: none; } 94%, 100% { opacity: 0; } }
-.type2 { transform-box: fill-box; transform-origin: left center; animation: type2 9s steps(15, end) infinite both; }
-@keyframes type2 { 0%, 8% { transform: scaleX(0); } 34%, 100% { transform: scaleX(1); } }
+.blink { animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
 .res { opacity: 0; animation: res 9s cubic-bezier(.34,1.4,.64,1) infinite both; }
 @keyframes res { 0%, 38% { opacity: 0; transform: scale(.6); } 44%, 90% { opacity: 1; transform: none; } 96%, 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .keyglow { opacity: 0; } .saved, .res { opacity: 1; } }
+.tc-q100 { transform: translateX(226.9px); animation: tc-q100 9s infinite both; animation-timing-function: step-end; }
+@keyframes tc-q100 { 0%, 19.44% { transform: translateX(0); } 20.12% { transform: translateX(12.6px); } 20.95% { transform: translateX(22.2px); } 21.63% { transform: translateX(36.9px); } 22.73% { transform: translateX(46.9px); } 23.52% { transform: translateX(53.2px); } 24.31% { transform: translateX(62.3px); } 25.35% { transform: translateX(68.6px); } 26.90% { transform: translateX(73.1px); } 27.73% { transform: translateX(83.1px); } 28.54% { transform: translateX(87.3px); } 29.29% { transform: translateX(92.5px); } 30.37% { transform: translateX(101.6px); } 31.37% { transform: translateX(109.9px); } 32.60% { transform: translateX(114.4px); } 33.25% { transform: translateX(124.4px); } 34.02% { transform: translateX(133.5px); } 34.85% { transform: translateX(139.8px); } 35.93% { transform: translateX(148.9px); } 36.94% { transform: translateX(153.4px); } 37.87% { transform: translateX(162.5px); } 38.53% { transform: translateX(167.7px); } 40.12% { transform: translateX(172.2px); } 40.98% { transform: translateX(180.1px); } 41.77% { transform: translateX(189.7px); } 42.56% { transform: translateX(199.5px); } 43.44% { transform: translateX(205.8px); } 44.23% { transform: translateX(212.1px); } 44.92% { transform: translateX(221.7px); } 45.56% { transform: translateX(226.9px); } 94.44% { transform: translateX(226.9px); } 94.94%, 100% { transform: translateX(0); } }
+.tp-q100 { transform: translateX(226.9px); animation: tp-q100 9s infinite both; animation-timing-function: step-end; }
+@keyframes tp-q100 { 0%, 19.44% { transform: translateX(0); } 20.12% { transform: translateX(12.6px); } 20.95% { transform: translateX(22.2px); } 21.63% { transform: translateX(36.9px); } 22.73% { transform: translateX(46.9px); } 23.52% { transform: translateX(53.2px); } 24.31% { transform: translateX(62.3px); } 25.35% { transform: translateX(68.6px); } 26.90% { transform: translateX(73.1px); } 27.73% { transform: translateX(83.1px); } 28.54% { transform: translateX(87.3px); } 29.29% { transform: translateX(92.5px); } 30.37% { transform: translateX(101.6px); } 31.37% { transform: translateX(109.9px); } 32.60% { transform: translateX(114.4px); } 33.25% { transform: translateX(124.4px); } 34.02% { transform: translateX(133.5px); } 34.85% { transform: translateX(139.8px); } 35.93% { transform: translateX(148.9px); } 36.94% { transform: translateX(153.4px); } 37.87% { transform: translateX(162.5px); } 38.53% { transform: translateX(167.7px); } 40.12% { transform: translateX(172.2px); } 40.98% { transform: translateX(180.1px); } 41.77% { transform: translateX(189.7px); } 42.56% { transform: translateX(199.5px); } 43.44% { transform: translateX(205.8px); } 44.23% { transform: translateX(212.1px); } 44.92% { transform: translateX(221.7px); } 45.56% { transform: translateX(226.9px); } 94.44% { transform: translateX(226.9px); } 94.94%, 100% { transform: translateX(0); } }
+.tc-c100 { transform: translateX(232.0px); animation: tc-c100 9s infinite both; animation-timing-function: step-end; }
+@keyframes tc-c100 { 0%, 7.78% { transform: translateX(0); } 9.23% { transform: translateX(15.4px); } 10.98% { transform: translateX(29.8px); } 12.17% { transform: translateX(44.2px); } 15.22% { transform: translateX(50.5px); } 16.86% { transform: translateX(64.8px); } 18.71% { transform: translateX(71.1px); } 20.24% { transform: translateX(85.5px); } 21.76% { transform: translateX(99.9px); } 23.66% { transform: translateX(114.3px); } 25.89% { transform: translateX(120.6px); } 27.36% { transform: translateX(131.5px); } 29.80% { transform: translateX(137.8px); } 30.82% { transform: translateX(152.2px); } 33.01% { transform: translateX(158.5px); } 34.44% { transform: translateX(172.8px); } 40.00% { transform: translateX(232.0px); } 94.44% { transform: translateX(172.8px); } 94.94%, 100% { transform: translateX(0); } }
+.tp-c100 { transform: translateX(172.8px); animation: tp-c100 9s infinite both; animation-timing-function: step-end; }
+@keyframes tp-c100 { 0%, 7.78% { transform: translateX(0); } 9.23% { transform: translateX(15.4px); } 10.98% { transform: translateX(29.8px); } 12.17% { transform: translateX(44.2px); } 15.22% { transform: translateX(50.5px); } 16.86% { transform: translateX(64.8px); } 18.71% { transform: translateX(71.1px); } 20.24% { transform: translateX(85.5px); } 21.76% { transform: translateX(99.9px); } 23.66% { transform: translateX(114.3px); } 25.89% { transform: translateX(120.6px); } 27.36% { transform: translateX(131.5px); } 29.80% { transform: translateX(137.8px); } 30.82% { transform: translateX(152.2px); } 33.01% { transform: translateX(158.5px); } 34.44% { transform: translateX(172.8px); } 94.44% { transform: translateX(172.8px); } 94.94%, 100% { transform: translateX(0); } }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
@@ -66,7 +72,7 @@ svg { --ax: 168px; }
         <g transform="translate(16.0 16.0) scale(0.7500)" fill="none" stroke="#ffd166" color="#ffd166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></g>
         <text class="b" x="42" y="30" font-size="15" fill="#e8fbf9">Nota rápida</text>
         <rect x="14" y="46" width="471.0" height="38" rx="10" fill="#06161a" fill-opacity=".7" stroke="#fff" stroke-opacity=".14"/>
-        <text class="t type" x="28" y="71" font-size="17" fill="#ffffff">Comprar pilas para el control</text>
+        <clipPath id="cl-q100"><rect class="tp-q100" x="-207.4" y="52.3" width="235.4" height="25.5"/></clipPath><text class="t" x="28" y="71" font-size="17" fill="#ffffff" clip-path="url(#cl-q100)">Comprar pilas para el control</text><g class="blink"><rect class="tc-q100" x="29.0" y="55.4" width="2.0" height="19.5" rx="1" fill="#5fd6cc"/></g>
       </g></g>
       <g class="saved"><g transform="translate(277.5 278.0)">
         <rect x="-62" y="-24" width="124" height="34" rx="17" fill="#30b8b0" fill-opacity=".25" stroke="#5fd6cc" stroke-opacity=".7"/>
@@ -81,7 +87,7 @@ svg { --ax: 168px; }
         <rect width="499.0" height="150.0" rx="16" fill="#06161a" fill-opacity=".55" stroke="#fff" stroke-opacity=".12"/>
         <rect x="20" y="24" width="120" height="9" rx="4.5" fill="#fff" fill-opacity=".22"/>
         <rect x="20" y="42" width="190" height="7" rx="3.5" fill="#fff" fill-opacity=".12"/>
-        <text class="t type2" x="20" y="96" font-size="24" fill="#ffffff">450 + 120 * 3 =</text>
+        <clipPath id="cl-c100"><rect class="tp-c100" x="-164.8" y="69.6" width="184.8" height="36.0"/></clipPath><text class="t" x="20" y="96" font-size="24" fill="#ffffff" clip-path="url(#cl-c100)">450 + 120 * 3 =</text><g class="blink"><rect class="tc-c100" x="21.0" y="73.9" width="2.2" height="27.6" rx="1" fill="#5fd6cc"/></g>
         <g class="res" style="transform-box: fill-box; transform-origin: left center"><text class="b" x="203.8" y="96" font-size="24" fill="#5fd6cc">810</text></g>
         <rect x="20" y="118" width="150" height="7" rx="3.5" fill="#fff" fill-opacity=".12"/>
       </g>
