@@ -84,8 +84,17 @@ Cambia el aspecto desde Ajustes: el estilo clásico y cuatro más (Cristal helad
 
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/estilos-m.svg">
-  <img src="screenshots/readme/estilos.svg" alt="Los cinco estilos de Noty en claro (arriba) y oscuro (abajo): Clásico, Cristal helado, Cristal extruido, Prisma holográfico y Bisel tallado" width="100%">
+  <img src="screenshots/readme/estilos.svg" alt="Los cinco estilos de Noty, uno a la vez y en grande, primero en tema claro y luego en oscuro: Clásico, Cristal helado, Cristal extruido, Prisma holográfico y Bisel tallado" width="100%">
 </picture>
+
+<details>
+<summary><b>Ver los cinco estilos juntos</b></summary>
+
+<br/>
+
+<img src="screenshots/estilos.png" alt="Los cinco estilos de Noty en claro (arriba) y oscuro (abajo)" width="100%">
+
+</details>
 
 <br/><br/>
 
