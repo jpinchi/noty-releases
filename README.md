@@ -1,24 +1,48 @@
 <div align="center">
 
-<img src="screenshots/banner.svg" alt="Noty — notas rápidas y bonitas para Windows; todo se guarda en tu equipo" width="100%">
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/banner-m.svg">
+  <img src="screenshots/banner.svg" alt="Noty — notas rápidas y bonitas para Windows; todo se guarda en tu equipo" width="100%">
+</picture>
+
+<br/>
 
 [![Versión](https://img.shields.io/github/v/release/jpinchi/noty-releases?style=flat-square&label=versi%C3%B3n&color=14B8A6)](https://github.com/jpinchi/noty-releases/releases/latest)
 [![Descargas](https://img.shields.io/github/downloads/jpinchi/noty-releases/total?style=flat-square&label=descargas&color=0EA5E9)](https://github.com/jpinchi/noty-releases/releases)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Funciona sin conexión](https://img.shields.io/badge/funciona-sin_conexi%C3%B3n-8A909E?style=flat-square)
 
-[**⬇ Descargar Noty para Windows**](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe) · [Todas las versiones](https://github.com/jpinchi/noty-releases/releases)
+<br/>
+
+<a href="https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe"><img src="https://img.shields.io/badge/Descargar_Noty_para_Windows-30b8b0?style=for-the-badge&logo=windows&logoColor=062a28" alt="Descargar Noty para Windows"></a>
+<a href="https://github.com/jpinchi/noty-releases/releases"><img src="https://img.shields.io/badge/Todas_las_versiones-0f1b20?style=for-the-badge&logo=github&logoColor=5fd6cc" alt="Todas las versiones"></a>
 
 </div>
 
-<p align="center">
-  <img src="screenshots/principal-claro.png" alt="Noty en tema claro: lista de notas, carpetas y una nota con tareas, tabla e imagen" width="900">
-</p>
+<br/>
 
 Noty es una app de notas de escritorio con un diseño de cristal translúcido, hecha para escribir rápido y encontrar después lo que apuntaste.
 No necesita cuenta, no usa servidores y funciona sin conexión: tus notas viven en tu computadora.
 
-## Lo que puedes hacer
+<a id="funciones"></a>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-funciones-m.svg">
+  <img src="screenshots/readme/h-funciones.svg" alt="01 · Lo que puedes hacer" width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/demos-m.svg">
+  <img src="screenshots/readme/demos.svg" alt="Nota rápida: pulsa Ctrl + Shift + Espacio en cualquier programa, escribe y la nota queda guardada sin abrir Noty. Calculadora: escribe 450 + 120 * 3 = y aparece 810." width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/funciones-m.svg">
+  <img src="screenshots/readme/funciones.svg" alt="Apunta desde cualquier lado; formato con tareas, tablas, imágenes, código y resaltador; carpetas, etiquetas, fijadas y carpetas inteligentes; búsqueda, salto con Ctrl + O y enlaces entre notas; recordatorios; calculadora; notas cifradas con AES-GCM de 256 bits; historial, copias diarias y exportación; español e inglés; actualización automática" width="100%">
+</picture>
+
+<details>
+<summary><b>Ver todos los detalles</b></summary>
 
 - **Apuntar desde cualquier programa.** Pulsa **Ctrl + Shift + Espacio** y escribe en una ventanita flotante; la nota queda guardada sin abrir Noty.
 - **Dar formato sin complicarte:** títulos, negrita, listas, **tareas con casillas**, tablas, imágenes, bloques de código, resaltador de cinco colores y secciones plegables.
@@ -31,31 +55,67 @@ No necesita cuenta, no usa servidores y funciona sin conexión: tus notas viven 
 - **En español e inglés:** la interfaz y la ortografía, con la tilde puesta automáticamente al terminar una palabra.
 - **Actualizarse sola:** al salir una versión nueva, Noty la descarga y la instala en silencio.
 
-## Cinco estilos de cristal, claro y oscuro
+</details>
+
+<br/>
+
+<a id="temas"></a>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-temas-m.svg">
+  <img src="screenshots/readme/h-temas.svg" alt="02 · Claro u oscuro" width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/temas-m.svg">
+  <img src="screenshots/readme/temas.svg" alt="Noty alternando entre tema oscuro y tema claro: lista de notas, carpetas y una nota con tareas, tabla e imagen" width="100%">
+</picture>
+
+<br/><br/>
+
+<a id="estilos"></a>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-estilos-m.svg">
+  <img src="screenshots/readme/h-estilos.svg" alt="03 · Cinco estilos de cristal" width="100%">
+</picture>
 
 Cambia el aspecto desde Ajustes: el estilo clásico y cuatro más (Cristal helado, Cristal extruido, Prisma holográfico y Bisel tallado), cada uno con su versión clara y oscura.
 
-<p align="center">
-  <img src="screenshots/estilos.png" alt="Los cinco estilos de Noty en claro (arriba) y oscuro (abajo)" width="900">
-</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/estilos-m.svg">
+  <img src="screenshots/readme/estilos.svg" alt="Los cinco estilos de Noty en claro (arriba) y oscuro (abajo): Clásico, Cristal helado, Cristal extruido, Prisma holográfico y Bisel tallado" width="100%">
+</picture>
 
-<p align="center">
-  <img src="screenshots/principal-oscuro.png" alt="Noty en tema oscuro" width="900">
-</p>
+<br/><br/>
 
-## Pensada también para tabletas táctiles
+<a id="tactil"></a>
 
-En una tableta, un portátil 2 en 1 o cualquier equipo con pantalla táctil, Noty tiene un **modo táctil** que agranda los botones y menús. Se activa solo o lo eliges tú en Ajustes:
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-tactil-m.svg">
+  <img src="screenshots/readme/h-tactil.svg" alt="04 · Modo táctil" width="100%">
+</picture>
 
-- toca un enlace para abrir su menú, mantén pulsada una nota y **arrástrala con el dedo** a una carpeta o a la papelera;
-- el teclado de Windows se abre solo al tocar, y el panel de escritura a mano del lápiz está pensado para **no abrirse por accidente**;
-- en **pantalla vertical** la lista de notas es un cajón sobre la nota, para que la hoja use todo el ancho.
+En una tableta, un portátil 2 en 1 o cualquier equipo con pantalla táctil, Noty tiene un **modo táctil** que agranda los botones y menús. Se activa solo o lo eliges tú en Ajustes.
 
-<p align="center">
-  <img src="screenshots/tactil-vertical.png" alt="Noty en modo táctil y en vertical: la nota a todo el ancho y la lista de notas como cajón" width="800">
-</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/tactil-m.svg">
+  <img src="screenshots/readme/tactil.svg" alt="Noty en modo táctil y en vertical. Toca un enlace para abrir su menú; mantén pulsada una nota y arrástrala con el dedo a una carpeta o a la papelera; el teclado de Windows se abre solo y el panel del lápiz no se abre por accidente; en pantalla vertical la lista de notas es un cajón y la hoja usa todo el ancho" width="100%">
+</picture>
 
-## Instalar
+<br/><br/>
+
+<a id="instalar"></a>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-instalar-m.svg">
+  <img src="screenshots/readme/h-instalar.svg" alt="05 · Instalar" width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/instalar-m.svg">
+  <img src="screenshots/readme/instalar.svg" alt="1. Descarga el instalador de la última versión. 2. Ejecútalo, no hace falta ser administrador. 3. Ábrelo desde el menú Inicio. Requiere Windows 10 u 11 de 64 bits." width="100%">
+</picture>
 
 1. Pulsa [**⬇ Descargar Noty para Windows**](https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe): se baja el instalador de la última versión.
 2. Ejecútalo. No hace falta ser administrador.
@@ -75,12 +135,26 @@ Si instalaste con el instalador, Noty busca versiones nuevas solo y las instala 
 
 Desinstalar el programa **no borra tus notas**: viven en `%APPDATA%\noty-desktop`. Si vuelves a instalar Noty, las recupera. Antes de cualquier cambio grande, exporta una copia desde Ajustes o usa las copias automáticas de `Documentos\Noty\Copias`.
 
-## Privacidad
+<br/>
 
-- Tus notas **no salen de tu equipo**: no hay cuenta, servidor, telemetría ni anuncios.
-- Lo único que Noty consulta en internet es si hay una versión nueva disponible en esta página.
+<a id="privacidad"></a>
 
----
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/h-privacidad-m.svg">
+  <img src="screenshots/readme/h-privacidad.svg" alt="06 · Privacidad" width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/privacidad-m.svg">
+  <img src="screenshots/readme/privacidad.svg" alt="Tus notas no salen de tu equipo: sin cuenta, sin servidores, sin telemetría y sin anuncios. Lo único que Noty consulta en internet es si hay una versión nueva en esta página." width="100%">
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/readme/pie-m.svg">
+  <img src="screenshots/readme/pie.svg" alt="Noty · Notas rápidas y bonitas para Windows · Hecho por Josue Mejias" width="100%">
+</picture>
 
 <details>
 <summary><b>English</b></summary>
