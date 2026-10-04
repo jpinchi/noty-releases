@@ -35,10 +35,10 @@
     .key { transform-box: fill-box; animation: press 10s ease-out infinite; }
     @keyframes press { 0%, 100% { transform: translateY(0); } 2% { transform: translateY(2px); } 6% { transform: translateY(0); } }
     .k1 { animation-delay: .4s; } .k2 { animation-delay: .55s; } .k3 { animation-delay: .7s; }
-    .type { transform-box: fill-box; transform-origin: left center; animation: type 10s linear infinite; }
-    @keyframes type { 0%, 12% { transform: scaleX(0); } 40%, 90% { transform: scaleX(1); } 94%, 100% { transform: scaleX(0); } }
-    .caret { animation: caret 10s linear infinite, blink 1s steps(1) infinite; }
-    @keyframes caret { 0%, 12% { transform: translateX(0); } 40%, 90% { transform: translateX(196px); } 94%, 100% { transform: translateX(0); } }
+    /* Escritura real: el recorte y el cursor avanzan letra por letra con el ancho medido de cada una */
+    .type, .caret { animation: type 10s infinite both; animation-timing-function: step-end; }
+    .caret { animation: type 10s infinite both, blink 1s steps(1) infinite; animation-timing-function: step-end; }
+    @keyframes type { 0%, 12.00% { transform: translateX(0); } 13.28% { transform: translateX(4.9px); } 14.86% { transform: translateX(13.8px); } 16.48% { transform: translateX(21.9px); } 17.39% { transform: translateX(29.9px); } 18.83% { transform: translateX(33.5px); } 20.94% { transform: translateX(37.4px); } 22.43% { transform: translateX(45.4px); } 23.54% { transform: translateX(54.3px); } 25.02% { transform: translateX(63.2px); } 26.75% { transform: translateX(67.1px); } 27.66% { transform: translateX(76.0px); } 28.94% { transform: translateX(84.1px); } 30.74% { transform: translateX(88.0px); } 32.18% { transform: translateX(93.6px); } 33.56% { transform: translateX(101.7px); } 34.49% { transform: translateX(108.6px); } 35.42% { transform: translateX(116.7px); } 37.02% { transform: translateX(122.2px); } 38.34% { transform: translateX(130.2px); } 40.00% { transform: translateX(137.5px); } 92.00% { transform: translateX(137.5px); } 92.50%, 100% { transform: translateX(0); } }
     @keyframes blink { 50% { opacity: 0; } }
 
     .bell { transform-box: fill-box; transform-origin: 50% 10%; animation: ring 10s ease-in-out infinite; }
@@ -46,7 +46,7 @@
 
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
-      .chk { transform: scale(1); } .tick { stroke-dashoffset: 0; } .type { transform: none; } .caret { transform: translateX(196px); }
+      .chk { transform: scale(1); } .tick { stroke-dashoffset: 0; } .type, .caret { transform: translateX(137.5px); }
     }
   </style>
   <defs>
@@ -128,9 +128,9 @@
         <g fill="none" stroke="#5fd6cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M909 84 l4 -9 h12 l-4 9 z M912 92 h14"/></g>
         <text x="936" y="92" font-size="16" fill="#ffffff">Nota rápida</text>
         <rect x="906" y="112" width="208" height="40" rx="11" fill="#06161a" fill-opacity=".35" stroke="#ffffff" stroke-opacity=".18"/>
-        <clipPath id="typing"><rect class="type" x="918" y="118" width="198" height="28"/></clipPath>
+        <clipPath id="typing"><rect class="type" x="774.5" y="118" width="143.5" height="28"/></clipPath>
         <text x="918" y="138" font-size="15" fill="#e8fbf9" clip-path="url(#typing)">Idea: app de recetas</text>
-        <rect class="caret" x="918" y="122" width="2" height="21" rx="1" fill="#5fd6cc"/>
+        <rect class="caret" x="919.5" y="123" width="2" height="19" rx="1" fill="#5fd6cc"/>
         <text x="906" y="180" font-size="12" fill="#9fc9c5">Se guarda sin abrir Noty</text>
       </g>
     </g></g>
